@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Takes an matrix as argument and returns the inversion of it
 ## if the inversion is alread calculated it returns the cached value
-## otherwise it sets it and clears the cache.
+## otherwise it sets it
 cacheSolve <- function(x) {
   inversion <- x$getinversion()
 
